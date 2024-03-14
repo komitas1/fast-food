@@ -48,7 +48,7 @@
     }
     .nav {
         background-color: black;
-        width: 100%;
+        width: 100vw;
         height: 68px;
         display: flex;
         justify-content: space-between;

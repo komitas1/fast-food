@@ -123,4 +123,47 @@
         margin-left: 10px;
         font-size: 20px;
     }
+
+    @media (max-width: 768px) {
+        #loginModal {
+            width: 90%!important;
+            margin-top: 50px!important; /* Уменьшение отступа сверху для маленьких устройств */
+        }
+        .form-control {
+            width: 90%!important; /* Уменьшение ширины поля ввода для маленьких устройств */
+            margin: 5px auto!important; /* Центрирование поля ввода */
+        }
+        .modal-content {
+            min-width: 100%; !important;/* 100% ширина контента */
+            background-color: #2563eb;
+            max-height: 80%!important; /* Максимальная высота контента, учитывая высоту заголовка и футера */
+        }
+        .modal-body{
+            width: 90%!important;
+        }
+        .btn-login {
+
+            width: 90%!important; /* Уменьшение ширины кнопки "Войти" */
+            margin: 10px auto!important; /* Центрирование кнопки */
+        }
+        .register-txt {
+            text-align: center!important; /* Центрирование текста "Если вы еще не зарегистрированы" */
+            margin: 10px auto!important; /* Центрирование текста */
+        }
+        .register-txt span {
+            /*display: block!important; !* Размещение стрелки на новой строке *!*/
+            margin: 5px auto!important; /* Центрирование стрелки */
+        }
+        .btn-register {
+            width: 90%!important; /* Уменьшение ширины кнопки "Зарегистрироваться" */
+            margin: 10px !important; /* Центрирование кнопки */
+        }
+        form{
+            display: block;
+            width: 95%;
+        }
+        /*.modal-footer{*/
+        /*    display: block;*/
+        /*}*/
+    }
 </style>

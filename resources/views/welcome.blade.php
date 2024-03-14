@@ -23,7 +23,9 @@
     </body>
 </html>
 <style>
-    body{
-        background-color: #2a2828;
-    }
+        body{
+            background-color: #edf2f7;
+            padding: 0!important;
+            margin: 0!important;
+        }
 </style>
