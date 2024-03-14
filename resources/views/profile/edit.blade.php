@@ -22,6 +22,16 @@
                         </a>
                     </div>
                 </div>
+                @if(Auth::user() && Auth::user()->role == 1)
+                    <div class="div-for-a">
+                        <div>
+                            <a class="a-link" href="/admin">
+                                Дашборд
+                                <img src="/images/profile.svg" alt="home">
+                            </a>
+                        </div>
+                    </div>
+                @endif
                 <div class="div-for-a">
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
